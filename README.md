@@ -1,2 +1,2 @@
 # Simple-perceptron
-Simple perceptron implementarion 
+Simple perceptron implementation 
