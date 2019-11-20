@@ -10,17 +10,17 @@ or=matrix(
   c( 1, 1, 1,
      1,-1, 1,
     -1, 1, 1,
-    -1,-1,-1), # the data elements 
-  nrow=4,              # number of rows 
-  ncol=3,              # number of columns 
+    -1,-1,-1),
+  nrow=4,              
+  ncol=3,              
   byrow = TRUE)
 xor=matrix( 
   c( 1, 1, 1,
      1,-1,-1,
     -1, 1,-1,
-    -1,-1, 1), # the data elements 
-  nrow=4,              # number of rows 
-  ncol=3,              # number of columns 
+    -1,-1, 1),  
+  nrow=4,              
+  ncol=3,             
   byrow = TRUE)
 toys=matrix( 
     c( -1  ,-1  ,-1,
@@ -29,9 +29,9 @@ toys=matrix(
        10  , 7.5, 1,
        -2.5,12.5,-1,
         5  ,10  , 1,
-        5  , 5  , 1), # the data elements 
-  nrow=7,              # number of rows 
-  ncol=3,              # number of columns 
+        5  , 5  , 1), 
+  nrow=7,              
+  ncol=3,              
   byrow = TRUE)
 PerceptronBin <- function(data) {
   teta=runif(1,0,1)
